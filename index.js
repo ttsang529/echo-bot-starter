@@ -85,7 +85,3 @@ app.post('/telegram', function (req, res) {
   res.send('hello telegram from POST');
 })
 
-
-app.listen(PORT, function () {
-  console.log('Example app listening on port 3000!')
-})

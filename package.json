@@ -9,9 +9,17 @@
   },
   "author": "ggm",
   "license": "ISC",
-  "repository": "git@github.com:ntu-csie-train/echo-bot-starter.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ntu-csie-train/echo-bot-starter.git"
+  },
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3"
-  }
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ntu-csie-train/echo-bot-starter/issues"
+  },
+  "homepage": "https://github.com/ntu-csie-train/echo-bot-starter#readme"
 }

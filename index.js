@@ -1,8 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
-const PORT =3000
-
+const PORT = process.env.PORT || 3000
 const app = express()
 const FACEBOOK_ACCESS_TOKEN = 'EAAcIWBAzZCNUBADH1z1GD8N4SJcBXISib5TfmJ3zOFjhIwf3fJqhSq1CWSAvlDrWBlJhzCnWLnwv2n7CZBdDZCdYH0XPJaKZAshVZAJi1ZAEYxFJZBHGNBmNSZBOnxZAxii1IVU0veSePwI3NNmAyFPddkDZAwOSN7ZCtQZBFcZBkkLbRcAZDZD'
 const VERIFY_TOKEN = 'okok'

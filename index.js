@@ -1,11 +1,10 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
-const PORT = process.env.PORT || 3000
+const PORT =3000
 
 const app = express()
 const FACEBOOK_ACCESS_TOKEN = 'EAAcIWBAzZCNUBADH1z1GD8N4SJcBXISib5TfmJ3zOFjhIwf3fJqhSq1CWSAvlDrWBlJhzCnWLnwv2n7CZBdDZCdYH0XPJaKZAshVZAJi1ZAEYxFJZBHGNBmNSZBOnxZAxii1IVU0veSePwI3NNmAyFPddkDZAwOSN7ZCtQZBFcZBkkLbRcAZDZD'
-const PORT = process.env.PORT || 3000
 const VERIFY_TOKEN = 'okok'
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
